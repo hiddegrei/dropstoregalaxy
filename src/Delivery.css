@@ -1,0 +1,239 @@
+.delivery {
+  display: flex;
+  width: 100vw;
+  background-color: #f2f2f2;
+  height: 90vh;
+}
+.delivery__window {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.delivery__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.delivery__header__button {
+  display: flex;
+  color: black;
+  margin-top: 10px;
+  width: 170px;
+  height: 35px;
+  align-items: center;
+  place-content: center;
+  background-color: #f3d078;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: inset 0 -4px 0 -2px rgb(0 0 0 / 40%),
+    inset 0 4px 1px -2px rgb(255 255 255 / 40%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.delivery__header__button {
+  cursor: pointer;
+}
+.delivery__header__text {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+}
+.delivery__window__address {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  /* border: 1px #ddd solid; */
+}
+.deliverySmall {
+  width: 100% !important;
+  flex-direction: column !important;
+}
+.delivery__address__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.delivery__address {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+.delivery__address__optie {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+.delivery__products {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cart__product__delivery {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  height: 200px;
+  border: 1px solid black;
+}
+.cart__product__image {
+  display: flex;
+  height: 95%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+  align-items: center;
+  place-content: center;
+}
+.cart__product__image__image__delivery {
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+.cart__product__info {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  place-content: center;
+}
+.cart__product__verzend {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  place-content: center;
+}
+.cart__product__aantal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  place-content: center;
+}
+.cart__product__aantal__top {
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.cart__product__aantal__change {
+  display: flex;
+  border: 1px solid black;
+  margin-left: 5px;
+  width: 40px;
+  height: 35px;
+  align-items: center;
+  place-content: center;
+}
+.cart__product__aantal__input {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+.cart__product__aantal__input__input {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.cart__product__aantal__bottom {
+  display: flex;
+  margin-top: 14px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #0066c0;
+}
+.cart__product__aantal__bottom {
+  cursor: pointer;
+  border-bottom: 1px solid #0066c0;
+}
+.icon__add {
+  display: flex;
+}
+.icon__add:hover {
+  cursor: pointer;
+}
+.cart__product__price {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  place-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.delivery__address__container__header {
+  display: flex;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.delivery__address__container__header__link {
+  display: flex;
+  color: #007eb9;
+  margin-left: 5px;
+}
+.delivery__address__container__header__link:hover {
+  cursor: pointer;
+
+  border-bottom: 1px solid #007eb9;
+}
+.delivery__opties {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  margin-left: auto;
+}
+.delivery__opties__s {
+  margin-left: 0 !important;
+  margin-bottom: 10px !important;
+}
+.delivery__opties__header {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.delivery__opties__optie {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.delivery__opties__optie__check {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.delivery__opties__optie__check:hover {
+  cursor: pointer;
+}
+.checked {
+  background-color: blue !important;
+}
+.delivery__opties__optie__text {
+  display: flex;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-top: 10px;
+}

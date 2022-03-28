@@ -1,0 +1,40 @@
+.shop {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 90vh;
+}
+.shop__header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.shop__bar {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  height: 50px;
+  align-items: center;
+}
+.shop__bar__left {
+  width: 70%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  font-weight: 600;
+}
+.shop__products {
+  width: 70%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}

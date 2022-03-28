@@ -1,0 +1,243 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.home__top1__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/socialapp-4fd2c.appspot.com/o/pexels-wendy-wei-1190298.jpg?alt=media&token=db935d5c-fc18-4aff-b775-8e48ae7db058");
+}
+.home__top1__topbar {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  position: absolute;
+  top: 10vh;
+  width: 100vw;
+  height: 35px;
+  background-color: #ff5757;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.home__top1__topbar__s {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  position: absolute;
+  top: 10vh;
+  width: 100vw;
+  height: 35px;
+  background-color: #ff5757;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.home__top1__text {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.home__top1__text__header {
+  display: flex;
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.small2 {
+  font-size: 18px !important;
+}
+.home__top1__text__sub {
+  display: flex;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+.home__top1__button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  place-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff5757;
+  /* border: 2px solid black; */
+  margin-top: 40px;
+}
+.home__top1__button:hover {
+  cursor: pointer;
+  background-color: #212a2f !important;
+  color: white !important;
+}
+.home__top2 {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  place-content: center;
+}
+.home__top2__image {
+  display: flex;
+  margin-top: 20px;
+  width: 35%;
+  height: 70%;
+  /* border: 1px solid black; */
+  align-items: center;
+  place-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/socialapp-4fd2c.appspot.com/o/H1a9c36933a8940c6a763d174895be771l.png?alt=media&token=e70554dd-5812-4b94-b749-18152c033934");
+}
+.small__home__top__2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  place-content: center;
+}
+.small_top2 {
+  width: 90%;
+}
+.home__top2__text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 15px;
+}
+.home__top2__text__small {
+  width: 80% !important;
+}
+.home__top2__text__header {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.home__top2__text__sub {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.home2__text__header__small {
+  display: flex;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.home2__text__sub__small {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.home__top2__text__button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  place-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
+}
+.home__top3__image {
+  display: flex;
+  margin-top: 20px;
+  width: 35%;
+  height: 70%;
+  border: 1px solid black;
+  align-items: center;
+  place-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/socialapp-4fd2c.appspot.com/o/combiligth.png?alt=media&token=8c499824-e3f7-44cd-a8b4-7ed81aec7c5a");
+}
+.home__top3__image__s {
+  display: flex;
+  margin-top: 20px;
+  width: 90%;
+  height: 70%;
+  border: 1px solid black;
+  align-items: center;
+  place-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/socialapp-4fd2c.appspot.com/o/combiligth.png?alt=media&token=8c499824-e3f7-44cd-a8b4-7ed81aec7c5a");
+}
+.home__top2__text__button:hover {
+  cursor: pointer;
+}
+.home__top3 {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+.home__featured {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  flex-direction: column;
+}
+.home__featured__header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.home__featured__top__products {
+  display: flex;
+  width: 75vw;
+  height: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.home__featured__bottom__products {
+  display: flex;
+  width: 75vw;
+  height: 45%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 5%;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.home__top1__text__header__small {
+  display: flex;
+  margin-top: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}

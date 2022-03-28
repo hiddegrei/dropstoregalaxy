@@ -1,0 +1,65 @@
+.review {
+  display: flex;
+  width: 100vw;
+}
+.review__window {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.review__header__text {
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+}
+.review__header__button {
+  display: flex;
+  color: black;
+  margin-top: 10px;
+  width: 170px;
+  height: 35px;
+  align-items: center;
+  place-content: center;
+  background-color: #f3d078;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: inset 0 -4px 0 -2px rgb(0 0 0 / 40%),
+    inset 0 4px 1px -2px rgb(255 255 255 / 40%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.review__header__button:hover {
+  cursor: pointer;
+}
+.review__info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px #ddd solid;
+}
+.review__info__address {
+  display: flex;
+  flex-direction: column;
+}
+.review__info__address__name {
+  display: flex;
+  font-size: 18px;
+  font-weight: 800;
+}
+.review__info__address__optie {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+}
+.review__info__payment {
+  display: flex;
+}

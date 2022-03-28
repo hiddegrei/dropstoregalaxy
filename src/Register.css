@@ -1,0 +1,72 @@
+.register {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+}
+.register__login {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+  margin-top: 20px;
+}
+.register__optie {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100px;
+
+  justify-content: space-between;
+}
+.register__header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.register__login__optie {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.register__login__optie__header {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.register__login__optie__input {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+.register__login__optie__input__input {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.register__login__button {
+  display: flex;
+  width: 160px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  place-content: center;
+
+  background-color: #ff4747;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: inset 0 -4px 0 -2px rgb(0 0 0 / 40%),
+    inset 0 4px 1px -2px rgb(255 255 255 / 40%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.register__login__button {
+  cursor: pointer;
+}

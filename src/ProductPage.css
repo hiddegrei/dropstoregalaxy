@@ -1,0 +1,337 @@
+.productpage {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.productpage__top {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  place-content: center;
+}
+.productpage__top__small {
+  flex-direction: column !important;
+  height: 100vh !important;
+}
+.productpage__top__images {
+  display: flex;
+  width: 50%;
+  height: 90%;
+
+  place-content: center;
+  flex-direction: column;
+}
+.productpage__top__images__main {
+  display: flex;
+  width: 80%;
+  height: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.productpage__top__images__main__small {
+  margin-top: 20px !important;
+  width: 80% !important;
+}
+.productpage__top__images__main__image {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
+.productpage__top__images__bottom {
+  display: flex;
+  width: 60%;
+  height: 20%;
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  place-content: center;
+}
+.images__opties {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  align-items: center;
+  place-content: center;
+}
+.images__opties:hover {
+  cursor: pointer;
+}
+.images__opties__optie {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.productpage__top__info {
+  width: 40%;
+  height: 90%;
+  display: flex;
+
+  flex-direction: column;
+}
+.productpage__top__info__small {
+  width: 90% !important;
+  place-content: center;
+}
+.productpage__top__info__header {
+  display: flex;
+  font-size: 25px;
+  font-weight: 700;
+}
+.productpage__top__info__price {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.productpage__top__info__price__old {
+  display: flex;
+  margin-left: 8px;
+  color: red;
+  text-decoration: line-through;
+}
+.productpage__top__info__reviews {
+  display: flex;
+  width: 200px;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.productpage__top__info__reviews {
+  cursor: pointer;
+}
+.productpage__top__info__review {
+  display: flex;
+
+  height: 30px;
+}
+.productpage__top__info__color__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.productpage__top__info__color {
+  display: flex;
+  width: 100%;
+  height: 70px;
+
+  align-items: center;
+}
+.productpage__top__info__color__header {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+}
+.productpage__top__info__color__optie {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  place-content: center;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.chosenColor {
+  border: 1px solid red !important;
+}
+.productpage__top__info__aantal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.productpage__top__info__aantal__header {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.productpage__top__info__aantal__buttons {
+  display: flex;
+  margin-top: 7px;
+}
+.productpage__top__info__aantal__buttons__number {
+  display: flex;
+  width: 20px;
+  place-content: center;
+}
+.remove__icon {
+  display: flex;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.remove__icon:hover {
+  cursor: pointer;
+}
+.productpage__top__info__buy__button {
+  display: flex;
+  margin-top: 15px;
+  margin-right: auto;
+  width: 80%;
+  height: 35px;
+  align-items: center;
+  place-content: center;
+
+  background-color: #ff4747;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: inset 0 -4px 0 -2px rgb(0 0 0 / 40%),
+    inset 0 4px 1px -2px rgb(255 255 255 / 40%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.productpage__top__info__buy__button:hover {
+  cursor: pointer;
+}
+
+.productpage__uitleg {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  place-content: center;
+}
+.productpage__uitleg__header {
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.productpage__uitleg__image {
+  display: flex;
+  margin-top: 20px;
+  width: 45%;
+  height: 80%;
+}
+.uitleg__image__small {
+  width: 90% !important;
+}
+.productpage__uitleg__image__img {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
+.uitleg__content {
+  display: flex;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.uitleg__small {
+  flex-direction: column !important;
+}
+.productpage__uitleg__text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 10px;
+}
+.productpage__uitleg__text__small {
+  width: 90% !important;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.productpage__uitleg__text__optie {
+  display: flex;
+  margin-top: 10px;
+}
+.productpage__guar {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 30vh;
+  margin-top: 100px;
+  align-items: center;
+  place-content: center;
+}
+.productpage__guar__header {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+}
+.productpage__guar__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.small__guar__h {
+  font-size: 25px !important;
+}
+.small__guar__t {
+  font-size: 14px !important;
+}
+.productpage__reviews__container {
+  display: flex;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  height: 70vh;
+}
+.reviewSmall {
+  width: 95vw !important;
+}
+.productpage__reviews__reviews {
+  overflow-y: scroll;
+}
+.productpage__reviews__header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.product__added {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  width: 150px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  place-content: center;
+
+  background-color: #ff4747;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: inset 0 -4px 0 -2px rgb(0 0 0 / 40%),
+    inset 0 4px 1px -2px rgb(255 255 255 / 40%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.write__review {
+  display: flex;
+  width: 70vw;
+  height: 250px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+.write__review__header {
+  display: flex;
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.write__review__input__container {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-left: 10px;
+}

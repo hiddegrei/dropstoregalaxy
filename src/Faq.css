@@ -1,0 +1,43 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  width: 100vw;
+  min-height: 110vh;
+}
+.faq__header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.faq__opie {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.faq__opie__header {
+  display: flex;
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.faq__opie__header__small {
+  font-size: 20px !important;
+}
+.faq__opie__text {
+  display: flex;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.faq__opie__text__small {
+  font-size: 14px !important;
+}
